@@ -43,45 +43,47 @@ main {
     margin: 20px 0px 20px 0px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    flex-direction:row-reverse;
+    align-items:stretch;
+    flex-direction:row;
     justify-content:space-evenly;
 
 }
 
 .complexo {
+    order: 1;
     width: 500px;
     height: 550px;
     background-image: url('../img/complex.png');
     background-repeat: no-repeat;
     background-size: cover;
-    align-self: center;
+    align-self: flex-start;
     
         
     
 }
 
 .apresentacao{
+    order:2;
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
     width: 500px;
-    height: auto;
+    height: fit-content;
     border-radius: 10%;
     padding: 20px 40px 20px;
     line-height: 2em;
     overflow: auto;
     background-color: rgba(255, 255, 255, 0.548);
-    text-align:left;
-    font-size: medium;
+    text-align:justifygi;
+    font-size: 1vw;
 }
 
 #fotomarco {
     border: 8px ridge rgba(54, 52, 175, 0.877);
     border-radius: 30%;
     background-color: rgba(255, 255, 255, 0.938);
-    max-width:200px;
-    max-height:200px;
+    max-width:180px;
+    max-height:180px;
     left: 500px;
     width: auto;
     height: auto;
