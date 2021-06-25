@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+html * {
+margin: 0%;
+border: 0%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+header {
+    padding: 0.8em;
+    display: grid;
+    place-items: center;
+    background-image: url('../img/bg-header.png');
+    background-size: 30px;
+    background-color: rgb(99, 88, 88);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+
+  body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: rgba(221, 221, 221, 0.644);
+    background-image: url("../img/bg-body.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    
+}
+main {
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction:row-reverse;
+    justify-content:space-evenly;
+
+}
+
+.complexo {
+    width: 500px;
+    height: 550px;
+    background-image: url('../img/complex.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+    
+        
+    
+}
+
+.apresentacao{
+    width: 500px;
+    height: auto;
+    border-radius: 10%;
+    padding: 20px 40px 20px;
+    line-height: 2em;
+    overflow: auto;
+    position:relative;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.548);
+    text-align:left;
+    font-size: medium;
+}
+
+#h1 {
+    line-height: 40px;
+}
+
+
+#marco {
+    border: 8px ridge rgba(54, 52, 175, 0.877);
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.938);
+    max-width:140px;
+    max-height:140px;
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 176px;
+    top: 0px
+}
+
+#research {
+    border: 8px ridge rgba(54, 52, 175, 0.877);
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.938);
+    max-width:140px;
+    max-height:140px;
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 144px;
+    top: 138px
+}
+
+#publications {
+    border: 8px ridge rgba(54, 52, 175, 0.877);
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.938);
+    max-width:140px;
+    max-height:140px;
+    width: auto;
+    height: auto;
+    position: relative;
+    left: -258px;
+    top: 315px;
+}
+
+#gallery {
+    border: 8px ridge rgba(54, 52, 175, 0.877);
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.938);
+    max-width:140px;
+    max-height:140px;
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 0px;
+    top: 33px;
+}
+#people {
+    border: 8px ridge rgba(54, 52, 175, 0.877);
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.938);
+    max-width:140px;
+    max-height:140px;
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 30px;
+    top: 280px
+}
+#lab {
+    border: 8px ridge rgba(54, 52, 175, 0.877);
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.938);
+    max-width:140px;
+    max-height:140px;
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 81px;
+    top: 126px
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+    background-color: rgba(255, 255, 255, 0.651);
+  }
+/* #ufscar {
+  max-width: 80px;
+  max-height: 80px;
+  width: auto;
+  height: auto;
+  align-items: right;
+  align-self: baseline;
+  left: 0px;
+} */
+/* .cabecalho{
+    background-color: lightgreen;
+    padding: 0px;
+    margin: 0%;
+    border: 0px;
+    height: 12vh;    
+}
+
+.cabecalho h1{
+    padding-left: 20px;
+    position: absolute;
+    top: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    /* background-image: url(''); */
+    /* background-repeat: repeat;
+  }
+
+.video{
+    position: relative;
+    
+}
+
+footer{
+    background-color: lightgreen;
+    height: 15vh;
+    padding: 20px;
+}
+
+footer img{
+    width: 70px;
+    height: 70px;
+    padding-left: 20px;
+    align-content: center;
+}
+
+img {
+    width: var(--size);
+    height: var(--size);
+  
+    margin: 1em;
+  
+    border-radius: 50%;
+  }
+  
+  img {
+    transition: all 150ms linear;
+  }
+
+  .columns {
+    margin: 2em 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+ 
+   */
